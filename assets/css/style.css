@@ -136,7 +136,7 @@ h1, h2, h3, h4{
     color:#f1f1f1;
     font-size: 16px;
  }
- .menu ul li.selected a{
+ .menu ul li .selected a{
     color:#1c1c1c;
  }
  .menu ul li a:hoover{
