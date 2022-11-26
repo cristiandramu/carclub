@@ -5,9 +5,10 @@
         <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
         <meta name="description" content="Car club website for car enthusiasts">
         <meta name="keywords" content="bavarian worx, car club, car members, car meets">
-
+        
         <link rel="stylesheet" href="assets/css/style.css">
         <title>Bavarian Worx</title>
+        
     </head>
     <body>
         <div id="header">
@@ -28,9 +29,34 @@
     </div>
     <div id="wrap">
         <div class="top_slogan">We have an unshaken belief that cars are living entities</div>
-        <div> <a>slider goes here</a> </div> 
-        <div class="clear"></div>
-    </div>
+       
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+              <img src="/assets/images/slide_img1.jpg" style="width:100%" alt="3 bmws in a photo">
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="/assets/images/slide_img2.jpg" style="width:100%" alt="bmw m4 gts photo from above" >
+            </div>
+            
+            <div class="mySlides fade">
+              <img src="/assets/images/slide_img3.jpg" style="width:100%" alt="bmw m4 gts photo from side">
+            </div>
+
+            <div class="mySlides fade">
+                <img src="/assets/images/slide_img4.jpg" style="width:100%" alt="bmw m4 and bmw m4 gts">
+              </div>
+            </div>
+            <br>
+            <div style="text-align:center">
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+             <span class="dot"></span> 
+            </div>
+
+             <div class="clear"></div>
+             </div>
         <div class="footer">
         <ul class="social-networks">
             <li>
@@ -47,5 +73,28 @@
         
          <!-- font awsome script -->
     <script src="https://kit.fontawesome.com/7ddb535590.js" crossorigin="anonymous"></script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+        
+        function showSlides() {
+          let i;
+          let slides = document.getElementsByClassName("mySlides");
+          let dots = document.getElementsByClassName("dot");
+          for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+          }
+          slideIndex++;
+          if (slideIndex > slides.length) {slideIndex = 1}    
+          for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+          setTimeout(showSlides, 5000); 
+        }
+        </script>
+        
+        
     </body>
  </html>
