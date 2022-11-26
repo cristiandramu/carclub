@@ -1,12 +1,144 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oxygen:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    border: none;
-}
+
 
 body{
-    font-family: oxygen, sans-serif;
+    font-family: lato, sans-serif;
     font-weight: 300;
+    padding: 0;
+    font-size: 12px;
+    margin: 0 auto;
+    color: #808080;
+    background-color: #FFFFFF;
 }
+
+a{
+    text-decoration: none;
+}
+.clear{
+    clear:both;
+}
+p{
+    padding:0;
+    margin:0px;
+    text-align: left;
+    line-height: 20px;
+}
+
+h1{
+    font-weight: 300;
+    color: #1c1c1c;
+    font-size: 26px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+h2{
+    font-weight: 300;
+    color: #1c1c1c;
+    font-size: 21px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+h3{
+    font-weight: 300;
+    color: #1c1c1c;
+    font-size: 18px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+h4{
+    font-weight: 300;
+    color: #1c1c1c;
+    font-size: 16px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+h5{
+    font-weight: 300;
+    color: #1c1c1c;
+    font-size: 14px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+h6{
+    font-weight: 300;
+    color: #3466aa;
+    font-size: 12px;
+    margin: 0;
+    padding: 0 0 25px 0;
+}
+
+h1, h2, h3, h4{
+    font-family: oswald, sans-serif;
+}
+
+/* Logo and menu*/
+#wrap{
+    margin: auto;
+    width: 1920px;
+    padding: 0 0 40px 0;
+}
+.main_content{
+    clear:both;
+}
+#header{
+    width: 100%;
+    height: 140px;
+    background-color: #82b7dc;
+}
+.header_content{
+    width: 1920px;
+    margin: auto;
+    line-height: 140px;
+}
+.logo{
+    float: left;
+    margin: 0 0 0 40px;
+    padding: 0px;
+    font-family: oswald, sans-serif;
+    color: #f1f1f1;
+    font-size: 48px;
+
+}
+.logo a{
+    color:#f1f1f1;
+}
+.logo span{
+    font-size: 16px;
+    color: #f1f1f1;
+}
+.top_slogan{
+    text-align: center;
+    font-family: oswald, sans-serif;
+    color: #808080;
+    font-size: 32px;
+    padding: 50px 150px;
+    font-style: italic;
+    line-height: 40px;
+}
+
+.menu{
+    float: right;
+    padding: 0 20px 0 0 ;
+}
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;  
+}
+.menu ul li{
+    float: left;
+    padding: 0 20px 0 20px;
+    height: 35px;
+}
+ .menu ul li a{
+    font-family: lato, sans-serif;
+    color:#f1f1f1;
+    font-size: 16px;
+ }
+ .menu ul li.selected a{
+    color:#1c1c1c;
+ }
+ .menu ul li a:hoover{
+    color:#1c1c1c;
+ }
