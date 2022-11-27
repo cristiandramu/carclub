@@ -1,6 +1,6 @@
 <br>
 
-## **Welcome BavarianWorx**
+## **Welcome to BavarianWorx**
 
 <br>
 
@@ -81,10 +81,10 @@
 ### Credits
 This website wouldnt be possible to come to live without the help of the onlone community.
 #### Media
-* Images for the slider are made avaliable by bmw-motorsport.com
-* Icons on homemade can be found on flaticon.com 
+* Images for the slider are made avaliable by www.bmw-motorsport.com
+* Icons on homemade can be found on www.flaticon.com 
 
 #### Coding
 
-* Slider was made avaliable with tanks to w3schools.com
+* Slider was made avaliable with tanks to www.w3schools.com
 * Online coding community and slack was also helpfull with debugging and getting the coding correct.
