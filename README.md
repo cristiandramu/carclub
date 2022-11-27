@@ -4,10 +4,11 @@
 
 <br>
 
-<p>BavarianWorx is is a club for the automobile community. Its initiation was to gather the motor community and offer a place were enthusiats can meet, work on their projects, share their knowledge and help one another. The website will target the 1000's of enthusiats around the country and world who share the same passion!
-</p>
-<br>
-![web](./assets/images/web.jpg)
+<p>BavarianWorx is is a club for the automobile community.</p>
+<p>Its initiation was to gather the motor community and offer a place were enthusiats can meet, work on their projects, share their knowledge and help one another.</p>
+<p>The website will target the 1000's of enthusiats around the country and world who share the same passion</p>
+
+ ![web](./assets/images/web.jpg)
 
 
 ### Features
@@ -16,25 +17,33 @@
 1. Navigation Bar
     - The same navigation bar is featured on all page and it is placed in the same location. This makes it easy for the user to navigate the website.</p>
     - There are 3 links to 3 diffrent pages, Home, About and Contacts page.
-<br>
-![Nav](./assets/images/nav.jpg)
 
-2. The Header
-3. Club Ethos
-4. About Us
-5. Contact US
+ ![Nav](./assets/images/nav.jpg)
+
+2. Club Ethos
+    - This section allows the members to see the benefits of joining your club.
+    - Six benefits of becomeing a members are outlined to encourge them to sign up.
+ 
+ ![ethos](./assets/images/ethos.jpg)
+3. About Us
+    - 
+4. Contact
+
+5. Footer
+   - In the footer the user came find links to the club social media accounts.
+ ![footer](./assets/images/footer.jpg)
 #### Features Left to Implement
 1. Form submit php code
 2. Booking form
 
 ### Testing
-<br>
+
 <p>The website isnt too complex in order to allow all users to browse across different platform. All section and pages are responsive and can be accessed on mobile, tables and web browsers.</p>
 <p>The images have been kept to a reasonable size to speed up the page loading but still offer a high end finish.</p>
 <br>
 
 ### Validator Testing
-<br>
+
 1.HTML
     -No errors were returned when passing through the official W3C validator https://validator.w3.org/
 2.CSS
@@ -42,7 +51,7 @@
 <br>
 
 ### Unfixed bugs
-<br>
+
 <p>Unfixed bugs</p>
 
 ### Deployment
