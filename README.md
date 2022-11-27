@@ -7,8 +7,8 @@
 <p>BavarianWorx is is a club for the automobile community. Its initiation was to gather the motor community and offer a place were enthusiats can meet, work on their projects, share their knowledge and help one another. The website will target the 1000's of enthusiats around the country and world who share the same passion!
 </p>
 <br>
-    ![web interface](./assets/images/web.jpg)
-<br>
+![web](./assets/images/web.jpg)
+
 
 ### Features
 
@@ -16,7 +16,9 @@
 1. Navigation Bar
     - The same navigation bar is featured on all page and it is placed in the same location. This makes it easy for the user to navigate the website.</p>
     - There are 3 links to 3 diffrent pages, Home, About and Contacts page.
-    - ![Nav bar](./assets/images/nav.jpg)
+<br>
+![Nav](./assets/images/nav.jpg)
+
 2. The Header
 3. Club Ethos
 4. About Us
@@ -34,9 +36,9 @@
 ### Validator Testing
 <br>
 1.HTML
-    -No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
+    -No errors were returned when passing through the official W3C validator https://validator.w3.org/
 2.CSS
-    -No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
+    -No errors were found when passing through the official (Jigsaw) validator https://jigsaw.w3.org/css-validator/
 <br>
 
 ### Unfixed bugs
@@ -49,4 +51,6 @@
         + In the GitHub repository, navigate to the settings tab
         + From the source section drop-down menu, select Master Branch
         + Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
-<p>The live link can be found here - (https://cristiandramu.github.io/carclub/)</p>
+<p>The live link can be found here - https://cristiandramu.github.io/carclub/</p>
+
+[def]: ./assets/images/nav.jpg
