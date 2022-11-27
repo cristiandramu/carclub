@@ -17,7 +17,8 @@
 
 1. Navigation Bar
 ***
-    * The same navigation bar is featured on all page and it is placed in the same location. This makes it easy for the user to navigate the website.
+    * The same navigation bar is featured on all page and it is placed in the same location. 
+    * This makes it easy for the user to navigate the website.
     * There are 3 links to 3 diffrent pages, Home, About and Contacts page.
 
  ![Nav](./assets/images/nav.jpg)
@@ -31,7 +32,7 @@
 
 3. About Us
 ***
-    * A short summary on the history of the club can be found by the user to help get a feel of people behind your brand.
+    * A short summary on the history of the club can be found by the user.
 
  ![about](./assets/images/about.jpg)
 
