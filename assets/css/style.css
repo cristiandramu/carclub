@@ -40,6 +40,7 @@ h2{
     font-size: 21px;
     margin: 0;
     padding: 0 0 25px 0;
+    
 }
 h3{
     font-weight: 300;
@@ -189,6 +190,10 @@ h1, h2, h3, h4{
     padding: 40px 0 0 40px;
 
  }
+ .section_full{
+    width: 1000px;
+    float: left;
+ }
 
  .roundimg{
     width:180px;
@@ -235,7 +240,79 @@ h1, h2, h3, h4{
     padding: 1%;
     color: #1c1c1c;
 }
- 
+/*Media Queries*/
+
+@media  screen and (max-width: 1000px){
+    #wrap{
+        margin:0 auto;
+        width:100%;
+}
+#header{
+    width:100%;
+    height:auto;
+    float:left;
+    background-color: #82b7dc;
+    padding-bottom: 40px;
+}
+.header_content{
+    width:100%;
+    float:left;
+    margin:auto;
+    line-height: 100px;
+}
+.logo{
+    margin: 0 0 0 30px;
+}
+.logo span{
+    display:none;
+}
+.section_one_three, .section_full{
+width:92%;
+float: left;
+padding: 5% 0 0 4%;
+}
+.menu{
+    float:left;
+    clear:both;
+    padding:0px 0 0px 0;
+    width:100%
+}
+.menu ul{
+    list-style:none;
+    margin: 0px;
+    padding: 0 20px 0 20px;
+}
+.menu ul *{
+    margin:0;
+    padding:0;
+}
+.menu ul li{
+    width: 100%;
+    float: left;
+    padding: 0px;
+    height: auto;
+    border-bottom:1px #f1f1f1 solid;
+    height: 35px;
+    line-height: 35px;
+}
+.menu ul li a{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding: 0 0 0 10px;
+    display: block;
+    cursor: pointer;
+}
+.menu ul li a:hover{
+    color: #1c1c1c;
+}
+.top_slogan{
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    line-height: 22px;
+}
+}
+
 
  /* On smaller screens, decrease text size */
  @media only screen and (max-width: 300px) {
