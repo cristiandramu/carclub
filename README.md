@@ -37,14 +37,14 @@
 
 4. Contact
 ***
-  <p> On the contact page the user has the option of getting in touch and ask for more information from the club.</p>
+    * On the contact page the user has the option of getting in touch and ask for more information from the club.
 
  ![contact](./assets/images/contact.jpg)
 
 5. Footer
 ***
     
-   <p> In the footer the user came find links to the club social media accounts.<p>
+    * In the footer the user came find links to the club social media accounts.
 
  ![footer](./assets/images/footer.jpg)
 #### Features Left to Implement
