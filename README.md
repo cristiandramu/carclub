@@ -34,9 +34,9 @@
 ### Validator Testing
 <br>
 1.HTML
-    -No errors were returned when passing through the official W3C validator
+    -No errors were returned when passing through the official [W3C validator](https://validator.w3.org/)
 2.CSS
-    -No errors were found when passing through the official (Jigsaw) validator
+    -No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/)
 <br>
 
 ### Unfixed bugs
@@ -46,4 +46,7 @@
 ### Deployment
 
 <p>The site was deployed to GitHub pages. The steps to deplay are as fallows:</p>
-- In the
+        + In the GitHub repository, navigate to the settings tab
+        + From the source section drop-down menu, select Master Branch
+        + Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+<p>The live link can be found here -</p> [Website] (https://cristiandramu.github.io/carclub/)
