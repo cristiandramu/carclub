@@ -21,3 +21,29 @@
 3. Club Ethos
 4. About Us
 5. Contact US
+#### Features Left to Implement
+1. Form submit php code
+2. Booking form
+
+### Testing
+<br>
+<p>The website isnt too complex in order to allow all users to browse across different platform. All section and pages are responsive and can be accessed on mobile, tables and web browsers.</p>
+<p>The images have been kept to a reasonable size to speed up the page loading but still offer a high end finish.</p>
+<br>
+
+### Validator Testing
+<br>
+1.HTML
+    -No errors were returned when passing through the official W3C validator
+2.CSS
+    -No errors were found when passing through the official (Jigsaw) validator
+<br>
+
+### Unfixed bugs
+<br>
+<p>Unfixed bugs</p>
+
+### Deployment
+
+<p>The site was deployed to GitHub pages. The steps to deplay are as fallows:</p>
+- In the
