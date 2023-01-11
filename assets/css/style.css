@@ -334,7 +334,7 @@ padding: 5% 0 0 4%;
 }
 .menu ul li a{
     color: #FFFFFF;
-    font-size: 25px;
+    font-size: 20px;
     padding: 0 0 0 10px;
     display: block;
     cursor: pointer;
@@ -352,6 +352,11 @@ padding: 5% 0 0 4%;
 
 
  /* On smaller screens, decrease text size */
- @media only screen and (max-width: 300px) {
-    .text {font-size: 25px}
+ @media only screen and (max-width: 400px) {
+    .text {
+        font-size: 20px
+     }
+    .menu{
+        font-size: 25px
+     }
   }
