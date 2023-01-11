@@ -354,9 +354,9 @@ padding: 5% 0 0 4%;
  /* On smaller screens, decrease text size */
  @media only screen and (max-width: 400px) {
     .text {
-        font-size: 40px
+        font-size: 20px
      }
-    .menu{
+    .selected{
         font-size: 45px
      }
   }
