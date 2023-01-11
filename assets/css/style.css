@@ -356,22 +356,6 @@ padding: 5% 0 0 4%;
     .text {
         font-size: 20px
      }
-.menu ul li{
-    width: 100%;
-    float: left;
-    padding: 0px;
-    height: 30px;
-    border-bottom:1px #f1f1f1 solid;
-    line-height: 35px;
-}
-.menu ul li a{
-    color: #FFFFFF;
-    font-size: 40px;
-    padding: 0 0 0 10px;
-    display: block;
-    cursor: pointer;
-}
-.menu ul li a:hover{
-    color: #1c1c1c;
-}
+.selected{
+    font-size:40px;
   }
