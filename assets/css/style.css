@@ -352,9 +352,9 @@ padding: 5% 0 0 4%;
 
 
  /* On smaller screens, decrease text size */
- @media only screen and (max-width: 480px) {
+ @media only screen and (max-width: 800px) {
     .text {
-        font-size: 20px
+        font-size: 30px
      }
      .menu ul li{
         float: left;
@@ -367,5 +367,18 @@ padding: 5% 0 0 4%;
         padding: 10px 0 0 10px;
         display: block;
         cursor: pointer;
+    }
+    .copyright{
+        font-size: 18px;
+        margin: 5px;
+        padding: 10px;
+        color: #f1f1f1;
+    }
+    p{
+        padding:0;
+        margin:0px;
+        font-size: 14px;
+        text-align: left;
+        line-height: 20px;
+    }
 }
- }
