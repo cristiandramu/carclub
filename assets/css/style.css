@@ -280,7 +280,7 @@ input[type=submit]:hover {
 /*Media Queries*/
 
 @media  screen and (max-width: 1000px){
-    #wrap{
+#wrap{
         margin:0 auto;
         width:100%;
 }
@@ -352,10 +352,20 @@ padding: 5% 0 0 4%;
 
 
  /* On smaller screens, decrease text size */
- @media only screen and (max-width: 500px) {
+ @media only screen and (max-width: 480px) {
     .text {
         font-size: 20px
      }
-.selected{
-    font-size:40px;
-  }
+     .menu ul li{
+        float: left;
+        padding: 0 20px 0 20px;
+        height: 55px;
+        }
+    .menu ul li a{
+        color: #FFFFFF;
+        font-size: 35px;
+        padding: 10px 0 0 10px;
+        display: block;
+        cursor: pointer;
+}
+ }
