@@ -61,12 +61,10 @@
 <br>
 
 ### Validator Testing
-
-
-1. HTML
-    -No errors were returned when passing through the official W3C validator https://validator.w3.org/
-2. CSS
-    -No errors were found when passing through the official (Jigsaw) validator https://jigsaw.w3.org/css-validator/
+- HTML 
+    - No errors were returned when passing through the official W3C validator https://validator.w3.org/
+- CSS 
+    - No errors were found when passing through the official (Jigsaw) validator https://jigsaw.w3.org/css-validator/
 <br>
 
 ### Deployment
